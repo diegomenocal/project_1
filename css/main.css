@@ -1,0 +1,182 @@
+/* border
+* {
+	border: 1px black solid;
+}
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+/* [][] Color Presets [][] */
+.blackout {
+	background-color: #000000;
+}
+.red {
+	background-color: #FF0000;
+}
+/* [][] End of Color Presets [][] */
+
+/* [][] Beginning of PERSISTENT NAVIGATION [][]*/
+nav h2 {
+	font-size: 1em;
+	letter-spacing: 4px;
+}
+.avatar {
+	margin:5px;
+}
+.pers_nav3 a {
+	text-transform: uppercase;
+}
+.menu li a {
+	color: #ffffff;
+}
+.pers_bar {
+	height: 10px;
+	background-image: url("../images/banana_leaf2.png");
+}
+.pers_nav2 a {
+	height: 80px;
+}
+/* [][] End of PERSISTENT NAGIVATION [][]*/
+
+/* HEADER PRESETS */
+
+h1 em {
+	font-size: 2.5em;
+	font-family: 'Satisfy', cursive;
+}
+h1 {
+	font-size: 1.5em;
+	font-family: 'Amatic SC', cursive;
+}
+h3 {
+	font: .8em #000000 Verdana, sans-serif;
+}
+/* END HEADER PRESETS */
+.about {
+	height: 568px;
+}
+.chef {
+	height: 568px;
+	background-image: url("../images/chef_2.png");
+	background-position: top;
+	background-repeat:no-repeat;
+}
+figcaption {
+	height: 568px;
+	background-image: url("../images/noodle_1.png");
+	overflow: hidden;
+}
+figcaption p {
+	height: 468px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.8);
+	text-indent: 40px;
+	text-align: justify;
+	color: #ffffff;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.6em;
+}
+figcaption h2 {
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* begin menu style */
+
+.menu_title {
+	font-size: 4em;
+ 	font-family: 'Satisfy', cursive;
+	text-align: center;
+	height: 100px;
+	background-color: black;
+	color: white;
+
+}
+.menu_400 {
+	height: 400px;
+}
+
+.menu_800 {
+	height: 800px;
+}
+
+.menu_box {
+	background-color: black;
+	color: white;
+}
+
+.menu_subtitle {
+	font-size: 2.5em;
+ 	font-family: 'Satisfy', cursive;
+	text-align: center;
+
+}
+
+li {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+li em {
+	font-weight: bold;
+}
+
+.menu_pic {
+	height: 800px;
+}
+
+/* end menu style */
+
+.mini_circle {
+	margin: 70px 0px 0px 10%;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+}
+footer {
+	height: 220px;
+	background-image: url("../images/banana_leaf.png");
+}
+footer p{
+text-align: center;
+margin: auto;
+color: #ffffff;
+}
+/* [][] THESE ARE SPACING RESETS [][] */
+.no-pad {
+	padding: 0px;
+}
+.no-mar {
+	margin: 0px;
+}
+/* [][] END OF SPACING RESETS [][] */
+
+html {
+background-color: black;
+}
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 640px) {
+
+.title-bar-title img {
+	margin-left: 500px;
+}
+footer {
+	height: 120px;
+}
+.mini_circle {
+	margin: 15px 0px 0px 15px;
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+footer {
+	height: 90px;
+}
+
+}
